@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB-HTML</title>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../script/colors.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <h1><a href="../index.html" style="text-decoration:none; font-size:70px;">WEB</a></h1>
+    <div id="grid">
+      <ol type="1" style="font-size:25px;" class="index">
+        <span id="columns">
+        <span><li><a href="html.html" id="now">HTML</a></li></span>
+        <span><li><a href="css.html">CSS</a></li></span>
+        <span><li><a href="javascript.html">JavaScript</a></li></span>
+        </span>
+      </ol>
+      <div id="contents">
+        <h2 style="text-align:center; font-size:30px;">HTML</h2>
+        <p>
+          Stands for "Hypertext Markup Language." HTML is the language used to create webpages. "Hypertext" refers to the hyperlinks that an HTML page may contain. "Markup language" refers to the way tags are used to define the page layout and elements within the page.
+        </p>
+        <p>
+          Below is an example of HTML used to define a basic webpage with a title and a single paragraph of text.
+        </p>
+        <p>
+          &lt;!doctype html&gt;
+          <br>&lt;html&gt;
+          <br>&lt;head&gt;
+          <br>&lt;title&gt;TechTerms.com&lt;/title&gt;
+          <br>&lt;/head&gt;
+          <br>&lt;body&gt;
+          <br>&lt;p&gt;This is an example of a paragraph in HTML.&lt;/p&gt;
+          <br>&lt;/body&gt;
+          <br>&lt;/html&gt;
+        </p>
+        <p>
+          The first line defines what type of contents the document contains. "<!doctype html>" means the page is written in HTML5. Properly formatted HTML pages should include <html>, <head>, and <body> tags, which are all included in the example above. The page title, metadata, and links to referenced files are placed between the <head> tags. The actual contents of the page go between the <body> tags.
+        </p>
+        <p>
+          The web has gone through many changes over the past few decades, but HTML has always been the fundamental language used to develop webpages. Interestingly, while websites have become more advanced and interactive, HTML has actually gotten simpler. If you compare the source of an HTML5 page with a similar page written in HTML 4.01 or XHTML 1.0, the HTML5 page would probably contain less code. This is because modern HTML relies on cascading style sheets or JavaScript to format nearly all the elements within a page.
+          </p>
+        </div>
+      </div>
+    </body>
+    <br>
+    <br>
+    <footer class="foot">
+      <input id="night_day" type="button" value="night" onclick='nightDayHandler(this)'>
+      <p>Made by KIMHYUNGTAE. Learned from 생활코딩.</p>
+    </footer>
