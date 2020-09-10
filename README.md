@@ -7,4 +7,5 @@
 </ul>
 <h2>보완점</h2>
 Position에 대한 정확한 이해가 부족하다보니 CSS를 다루는데 있어서 시간이 오래 걸렸음.
+<br>
 Link: https://kimhyungtae9707.github.io/Opentutorials/
